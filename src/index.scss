@@ -15,18 +15,24 @@ body {
 .calculator {
     display: flex;
     flex-direction: column;
-    margin-top: 32px;
+    align-items: center;
+    text-align: center;
+    margin-top: 32px;    
     background-color: rgb(51, 142, 247);
     border-radius: 8px;
     padding: 8px;
-    max-width: 600px;
+    max-width: 550px;
     margin: auto;
 }
 
-.result {
+.s1-1-1 {
     display: flex;
-    align-items: center;    
-    height: 40px;
+    flex-direction: column;
+     
+}
+
+.result {
+    height: 32px;
     border-radius: 8px;
     background-color: rgb(127, 235, 184);
     margin-bottom: 8px;
@@ -35,6 +41,7 @@ body {
 
 .btn {
     height: 32px;
+    margin: 5px;
     min-width: 64px;
     border: 3px solid rgb(255, 0, 0);
     outline: none;
@@ -46,11 +53,11 @@ body {
 .params {
     display: flex;
     margin-bottom: 8px;
-    text-align: center;
-
+    
     &__input {
         height: 32px;
-        border: 3px solid rgb(255, 243, 69);
+        margin: 5px;
+        border: 3px solid rgb(91, 73, 255);
         border-radius: 8px;
         flex: 1;
     }
