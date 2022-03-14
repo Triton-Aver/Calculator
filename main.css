@@ -1,3 +1,0 @@
-*{box-sizing:border-box}body{font-family:Arial,Helvetica,sans-serif}.title{font-size:24px;text-transform:uppercase;text-align:center}.calculator{display:flex;flex-direction:column;align-items:center;text-align:center;margin-top:32px;background-color:#338ef7;border-radius:8px;padding:8px;max-width:550px;margin:auto}.s1-1-1{display:flex;flex-direction:column}.result{height:32px;border-radius:8px;background-color:#7febb8;margin-bottom:8px;padding:8px}.btn{height:32px;margin:5px;min-width:64px;border:3px solid red;outline:none;cursor:pointer;border-radius:8px;margin-left:16px}.params{display:flex;margin-bottom:8px}.params__input{height:32px;margin:5px;border:3px solid #5b49ff;border-radius:8px;flex:1}
-
-/*# sourceMappingURL=main.css.map*/
